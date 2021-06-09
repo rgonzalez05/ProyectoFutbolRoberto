@@ -1,7 +1,7 @@
 ﻿
 namespace AdminitracionDeTorneosP.View
 {
-    partial class ReporteListadoJugadores
+    partial class VistaListaJugadores
     {
         /// <summary>
         /// Required designer variable.
@@ -29,24 +29,22 @@ namespace AdminitracionDeTorneosP.View
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.label2 = new System.Windows.Forms.Label();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.label1 = new System.Windows.Forms.Label();
             this.lista_jugadores_datagrid = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.lista_jugadores_datagrid)).BeginInit();
             this.SuspendLayout();
             // 
-            // label2
+            // label1
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Ebrima", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(126)))));
-            this.label2.Location = new System.Drawing.Point(239, 49);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(312, 47);
-            this.label2.TabIndex = 9;
-            this.label2.Text = "Listado jugadores\r\n";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(286, 58);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(185, 26);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Listado Jugadores";
             // 
             // lista_jugadores_datagrid
             // 
@@ -57,45 +55,44 @@ namespace AdminitracionDeTorneosP.View
             this.lista_jugadores_datagrid.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lista_jugadores_datagrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SunkenVertical;
             this.lista_jugadores_datagrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.HotTrack;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Franklin Gothic Book", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.lista_jugadores_datagrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.HotTrack;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Franklin Gothic Book", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.lista_jugadores_datagrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.lista_jugadores_datagrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.lista_jugadores_datagrid.EnableHeadersVisualStyles = false;
             this.lista_jugadores_datagrid.GridColor = System.Drawing.Color.Azure;
-            this.lista_jugadores_datagrid.Location = new System.Drawing.Point(53, 128);
+            this.lista_jugadores_datagrid.Location = new System.Drawing.Point(60, 110);
             this.lista_jugadores_datagrid.Margin = new System.Windows.Forms.Padding(2);
             this.lista_jugadores_datagrid.Name = "lista_jugadores_datagrid";
             this.lista_jugadores_datagrid.ReadOnly = true;
             this.lista_jugadores_datagrid.RowHeadersVisible = false;
             this.lista_jugadores_datagrid.RowHeadersWidth = 51;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.SteelBlue;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
-            this.lista_jugadores_datagrid.RowsDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.SteelBlue;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.White;
+            this.lista_jugadores_datagrid.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.lista_jugadores_datagrid.RowTemplate.Height = 24;
-            this.lista_jugadores_datagrid.Size = new System.Drawing.Size(690, 207);
-            this.lista_jugadores_datagrid.TabIndex = 8;
+            this.lista_jugadores_datagrid.Size = new System.Drawing.Size(706, 218);
+            this.lista_jugadores_datagrid.TabIndex = 1;
             // 
-            // ReporteListadoJugadores
+            // VistaListaJugadores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(240)))), ((int)(((byte)(248)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.lista_jugadores_datagrid);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Name = "ReporteListadoJugadores";
-            this.Text = "ReporteListadoJugadores";
-            this.Load += new System.EventHandler(this.ReporteListadoJugadores_Load);
+            this.Controls.Add(this.label1);
+            this.Name = "VistaListaJugadores";
+            this.Text = "VistaListaJugadores";
+            this.Load += new System.EventHandler(this.VistaListaJugadores_Load);
             ((System.ComponentModel.ISupportInitialize)(this.lista_jugadores_datagrid)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -104,7 +101,7 @@ namespace AdminitracionDeTorneosP.View
 
         #endregion
 
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView lista_jugadores_datagrid;
     }
 }
